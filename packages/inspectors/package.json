@@ -1,0 +1,7 @@
+{
+    "name": "temp-inspector",
+    "version": "0.0.1",
+    "description": "editor test",
+    "author": "TwoMoos",
+    "main": "temp-inspector.js"
+}

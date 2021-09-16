@@ -1,0 +1,8 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "demo-Inspector-extension",
+  "id": "04d1c37e-0415-4fc2-b5f7-637c038b0d7f",
+  "version": "2.4.5",
+  "isNew": false
+}
