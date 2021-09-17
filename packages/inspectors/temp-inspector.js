@@ -1,7 +1,15 @@
-'use strict';
-// const Vue = require('vue/dist/vue.js');
-const Vue = require('vue/dist/vue.min.js');
-Editor.log('Vue', Vue);
-Vue.component ('temp-inspector', {
+let fs = require("fire-fs");
+let packageName = "inspectors";
 
+Vue.component('temp-inspector', {
+    template: fs.readFileSync(Editor.url('packages://' + packageName + '/temp-inspector.html'), 'utf8'),
+
+    props: {
+        target: {
+            twoWay: true,
+            type: Object,
+        }
+    },
+    methods: {
+    }
 });

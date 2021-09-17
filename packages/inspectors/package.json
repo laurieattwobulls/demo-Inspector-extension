@@ -1,7 +1,7 @@
 {
-    "name": "temp-inspector",
+    "name": "inspectors",
     "version": "0.0.1",
     "description": "editor test",
     "author": "TwoMoos",
-    "main": "temp-inspector.js"
+    "main": "main.js"
 }
